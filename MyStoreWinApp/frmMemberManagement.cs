@@ -254,5 +254,10 @@ namespace MyStoreWinApp
             dgvMemberList.DataSource = null;
             dgvMemberList.DataSource = sortedMembersByName;
         }
+
+        private void btnCloseApp_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

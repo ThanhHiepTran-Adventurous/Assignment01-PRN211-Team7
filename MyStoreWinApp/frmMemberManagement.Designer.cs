@@ -58,6 +58,7 @@
             this.lbFilterCity = new System.Windows.Forms.Label();
             this.lbFilterCountry = new System.Windows.Forms.Label();
             this.dgvMemberList = new System.Windows.Forms.DataGridView();
+            this.btnCloseApp = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -192,21 +193,21 @@
             // 
             // txtRoleID
             // 
-            this.txtRoleID.Location = new System.Drawing.Point(124, 212);
+            this.txtRoleID.Location = new System.Drawing.Point(131, 212);
             this.txtRoleID.Name = "txtRoleID";
             this.txtRoleID.Size = new System.Drawing.Size(222, 27);
             this.txtRoleID.TabIndex = 5;
             // 
             // txtPassword
             // 
-            this.txtPassword.Location = new System.Drawing.Point(124, 161);
+            this.txtPassword.Location = new System.Drawing.Point(131, 158);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(222, 27);
             this.txtPassword.TabIndex = 4;
             // 
             // txtMemberName
             // 
-            this.txtMemberName.Location = new System.Drawing.Point(124, 104);
+            this.txtMemberName.Location = new System.Drawing.Point(131, 104);
             this.txtMemberName.Name = "txtMemberName";
             this.txtMemberName.Size = new System.Drawing.Size(222, 27);
             this.txtMemberName.TabIndex = 3;
@@ -214,7 +215,7 @@
             // lbMemberName
             // 
             this.lbMemberName.AutoSize = true;
-            this.lbMemberName.Location = new System.Drawing.Point(6, 107);
+            this.lbMemberName.Location = new System.Drawing.Point(16, 107);
             this.lbMemberName.Name = "lbMemberName";
             this.lbMemberName.Size = new System.Drawing.Size(109, 20);
             this.lbMemberName.TabIndex = 2;
@@ -222,7 +223,7 @@
             // 
             // txtMemberID
             // 
-            this.txtMemberID.Location = new System.Drawing.Point(124, 50);
+            this.txtMemberID.Location = new System.Drawing.Point(131, 50);
             this.txtMemberID.Name = "txtMemberID";
             this.txtMemberID.Size = new System.Drawing.Size(222, 27);
             this.txtMemberID.TabIndex = 1;
@@ -370,11 +371,22 @@
             this.dgvMemberList.TabIndex = 3;
             this.dgvMemberList.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvMemberList_CellContentClick);
             // 
+            // btnCloseApp
+            // 
+            this.btnCloseApp.Location = new System.Drawing.Point(914, 12);
+            this.btnCloseApp.Name = "btnCloseApp";
+            this.btnCloseApp.Size = new System.Drawing.Size(94, 29);
+            this.btnCloseApp.TabIndex = 17;
+            this.btnCloseApp.Text = "&Close App";
+            this.btnCloseApp.UseVisualStyleBackColor = true;
+            this.btnCloseApp.Click += new System.EventHandler(this.btnCloseApp_Click);
+            // 
             // frmMemberManagement
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1035, 801);
+            this.Controls.Add(this.btnCloseApp);
             this.Controls.Add(this.dgvMemberList);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
@@ -426,5 +438,6 @@
         private ComboBox cbxCity;
         private ComboBox cbxCountry;
         private DataGridView dgvMemberList;
+        private Button btnCloseApp;
     }
 }
