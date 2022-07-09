@@ -7,6 +7,6 @@ namespace MyStoreWinApp
     {
         IEnumerable<MemberObject> GetMembers();
 
-
+        void DeleteMember(int memberID);
     }
 }

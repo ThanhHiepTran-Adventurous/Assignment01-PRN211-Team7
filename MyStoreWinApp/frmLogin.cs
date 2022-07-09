@@ -39,7 +39,7 @@ namespace MyStoreWinApp
                 {
                     MessageBox.Show("Login succes with admin");
                 }
-                frmMemberManagement frmMemberManagement = new frmMemberManagement();
+                frmMemberManagement frmMemberManagement = new frmMemberManagement(Email);
                 frmMemberManagement.Show();//hiển thị form main
                 this.Hide();// ẩn form login
             }
