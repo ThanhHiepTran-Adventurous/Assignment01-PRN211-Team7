@@ -80,5 +80,18 @@ namespace MyStoreWinApp
         {
             this.Close();
         }
+
+        private void frmLogin_Load(object sender, EventArgs e)
+        {
+            this.KeyPreview = true;
+            this.KeyDown += Form1_KeyDown;
+        }
+        private void Form1_KeyDown(object? sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                btnLogin_Click(sender, e);
+            }
+        }
     }
 }
