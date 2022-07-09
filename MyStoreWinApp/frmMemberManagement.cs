@@ -194,5 +194,65 @@ namespace MyStoreWinApp
             dgvMemberList.DataSource = null;
             dgvMemberList.DataSource = listMembersFilteredByCity;
         }
+
+        private void txtTypeSearchMemberName_TextChanged(object sender, EventArgs e)
+        {
+            var members = memberRepository.GetMembers();
+            string nameMember = txtTypeSearchMemberName.Text;
+            //  int iDMember = Convert.ToInt32(txtTypeSearchMemberName.Text.Trim());
+            Console.WriteLine("================" + nameMember);
+            List<MemberObject> memberList = new List<MemberObject>();
+
+            foreach (MemberObject member in members)
+            {
+                LoadMemberList();
+
+                if (member.MemberName.ToString().ToLower().Contains(nameMember.ToLower()))
+                {
+                    memberList.Add(member);
+                }
+
+            }
+            dgvMemberList.DataSource = null;
+            dgvMemberList.DataSource = memberList;
+        }
+
+        private void txtsearchid_TextChanged(object sender, EventArgs e)
+        {
+            if (!String.IsNullOrEmpty(txtsearchid.Text))
+            {
+                string value = txtsearchid.Text;
+                var members = memberRepository.GetMembers();
+                List<MemberObject> memberList = new List<MemberObject>();
+
+                LoadMemberList();
+
+                foreach (MemberObject member in members)
+                {
+                    if (member.MemberID == int.Parse(value.ToString()))
+                    {
+                        memberList.Add(member);
+                    }
+
+                }
+                if (memberList.Count <= 0)
+                {
+                    MessageBox.Show("Not Found Member by ID");
+                }
+                dgvMemberList.DataSource = null;
+                dgvMemberList.DataSource = memberList;
+
+            }
+            else
+                LoadMemberList();
+        }
+
+        private void btnSortNameDesc_Click(object sender, EventArgs e)
+        {
+            this.LoadMemberList();
+            var sortedMembersByName = memberRepository.SortNameDesc();
+            dgvMemberList.DataSource = null;
+            dgvMemberList.DataSource = sortedMembersByName;
+        }
     }
 }

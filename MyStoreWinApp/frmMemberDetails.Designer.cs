@@ -182,7 +182,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(839, 450);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.lbEmail);
@@ -200,6 +200,7 @@
             this.Controls.Add(this.txtMemberName);
             this.Controls.Add(this.txtMemberID);
             this.Name = "frmMemberDetails";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmMemberDetails";
             this.Load += new System.EventHandler(this.frmMemberDetails_Load);
             this.ResumeLayout(false);

@@ -2767,19 +2767,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\huuta\\.nuget\\packages\\": {}
+    "C:\\Users\\Acer\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\huuta\\OneDrive\\Desktop\\Assignment01-PRN211-Team7\\MyStoreWinApp\\MyStoreWinApp.csproj",
+      "projectUniqueName": "C:\\Users\\Acer\\OneDrive\\Máy tính\\Assignment-PRN211-Team7\\Ass01_MemberManagement\\MyStoreWinApp\\MyStoreWinApp.csproj",
       "projectName": "MyStoreWinApp",
-      "projectPath": "C:\\Users\\huuta\\OneDrive\\Desktop\\Assignment01-PRN211-Team7\\MyStoreWinApp\\MyStoreWinApp.csproj",
-      "packagesPath": "C:\\Users\\huuta\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\huuta\\OneDrive\\Desktop\\Assignment01-PRN211-Team7\\MyStoreWinApp\\obj\\",
+      "projectPath": "C:\\Users\\Acer\\OneDrive\\Máy tính\\Assignment-PRN211-Team7\\Ass01_MemberManagement\\MyStoreWinApp\\MyStoreWinApp.csproj",
+      "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Acer\\OneDrive\\Máy tính\\Assignment-PRN211-Team7\\Ass01_MemberManagement\\MyStoreWinApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\huuta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2793,11 +2793,11 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\huuta\\OneDrive\\Desktop\\Assignment01-PRN211-Team7\\BusinessObject\\BusinessObject.csproj": {
-              "projectPath": "C:\\Users\\huuta\\OneDrive\\Desktop\\Assignment01-PRN211-Team7\\BusinessObject\\BusinessObject.csproj"
+            "C:\\Users\\Acer\\OneDrive\\Máy tính\\Assignment-PRN211-Team7\\Ass01_MemberManagement\\BusinessObject\\BusinessObject.csproj": {
+              "projectPath": "C:\\Users\\Acer\\OneDrive\\Máy tính\\Assignment-PRN211-Team7\\Ass01_MemberManagement\\BusinessObject\\BusinessObject.csproj"
             },
-            "C:\\Users\\huuta\\OneDrive\\Desktop\\Assignment01-PRN211-Team7\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "C:\\Users\\huuta\\OneDrive\\Desktop\\Assignment01-PRN211-Team7\\DataAccess\\DataAccess.csproj"
+            "C:\\Users\\Acer\\OneDrive\\Máy tính\\Assignment-PRN211-Team7\\Ass01_MemberManagement\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "C:\\Users\\Acer\\OneDrive\\Máy tính\\Assignment-PRN211-Team7\\Ass01_MemberManagement\\DataAccess\\DataAccess.csproj"
             }
           }
         }

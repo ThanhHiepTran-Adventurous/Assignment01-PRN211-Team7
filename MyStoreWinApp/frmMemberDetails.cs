@@ -61,7 +61,7 @@ namespace MyStoreWinApp
                 };
                 if (InsertOrUpdate == false)
                 {
-               //     MemberRepository.InsertMember(mem);
+                    MemberRepository.InsertMember(mem);
                     MessageBox.Show("Add successfully!!");
                     this.Close();
                 }
