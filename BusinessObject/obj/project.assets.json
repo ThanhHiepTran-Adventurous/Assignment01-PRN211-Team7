@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Acer\\.nuget\\packages\\": {}
+    "C:\\Users\\huuta\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Acer\\OneDrive\\Máy tính\\Assignment01-PRN211-Team7\\Assignment01-PRN211-Team7\\Ass01_MemberManagement\\BusinessObject\\BusinessObject.csproj",
+      "projectUniqueName": "C:\\Users\\huuta\\OneDrive\\Desktop\\Assignment01-PRN211-Team7\\BusinessObject\\BusinessObject.csproj",
       "projectName": "BusinessObject",
-      "projectPath": "C:\\Users\\Acer\\OneDrive\\Máy tính\\Assignment01-PRN211-Team7\\Assignment01-PRN211-Team7\\Ass01_MemberManagement\\BusinessObject\\BusinessObject.csproj",
-      "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Acer\\OneDrive\\Máy tính\\Assignment01-PRN211-Team7\\Assignment01-PRN211-Team7\\Ass01_MemberManagement\\BusinessObject\\obj\\",
+      "projectPath": "C:\\Users\\huuta\\OneDrive\\Desktop\\Assignment01-PRN211-Team7\\BusinessObject\\BusinessObject.csproj",
+      "packagesPath": "C:\\Users\\huuta\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\huuta\\OneDrive\\Desktop\\Assignment01-PRN211-Team7\\BusinessObject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\huuta\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

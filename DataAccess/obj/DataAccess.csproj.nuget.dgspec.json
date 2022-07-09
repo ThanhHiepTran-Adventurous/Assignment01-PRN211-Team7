@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Acer\\OneDrive\\Máy tính\\Assignment01-PRN211-Team7\\Assignment01-PRN211-Team7\\Ass01_MemberManagement\\DataAccess\\DataAccess.csproj": {}
+    "C:\\Users\\huuta\\OneDrive\\Desktop\\Assignment01-PRN211-Team7\\DataAccess\\DataAccess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Acer\\OneDrive\\Máy tính\\Assignment01-PRN211-Team7\\Assignment01-PRN211-Team7\\Ass01_MemberManagement\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\huuta\\OneDrive\\Desktop\\Assignment01-PRN211-Team7\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Acer\\OneDrive\\Máy tính\\Assignment01-PRN211-Team7\\Assignment01-PRN211-Team7\\Ass01_MemberManagement\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\huuta\\OneDrive\\Desktop\\Assignment01-PRN211-Team7\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\Acer\\OneDrive\\Máy tính\\Assignment01-PRN211-Team7\\Assignment01-PRN211-Team7\\Ass01_MemberManagement\\DataAccess\\DataAccess.csproj",
-        "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Acer\\OneDrive\\Máy tính\\Assignment01-PRN211-Team7\\Assignment01-PRN211-Team7\\Ass01_MemberManagement\\DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\huuta\\OneDrive\\Desktop\\Assignment01-PRN211-Team7\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\huuta\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\huuta\\OneDrive\\Desktop\\Assignment01-PRN211-Team7\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\huuta\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
