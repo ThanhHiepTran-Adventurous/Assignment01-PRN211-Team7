@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Acer\\OneDrive\\Máy tính\\Assignment01-PRN211-Team7\\Assignment01-PRN211-Team7\\Ass01_MemberManagement\\MyStoreWinApp\\MyStoreWinApp.csproj",
+      "projectUniqueName": "C:\\Users\\Acer\\OneDrive\\Máy tính\\Assignment-PRN211-Team7\\Ass01_MemberManagement\\MyStoreWinApp\\MyStoreWinApp.csproj",
       "projectName": "MyStoreWinApp",
-      "projectPath": "C:\\Users\\Acer\\OneDrive\\Máy tính\\Assignment01-PRN211-Team7\\Assignment01-PRN211-Team7\\Ass01_MemberManagement\\MyStoreWinApp\\MyStoreWinApp.csproj",
+      "projectPath": "C:\\Users\\Acer\\OneDrive\\Máy tính\\Assignment-PRN211-Team7\\Ass01_MemberManagement\\MyStoreWinApp\\MyStoreWinApp.csproj",
       "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Acer\\OneDrive\\Máy tính\\Assignment01-PRN211-Team7\\Assignment01-PRN211-Team7\\Ass01_MemberManagement\\MyStoreWinApp\\obj\\",
+      "outputPath": "C:\\Users\\Acer\\OneDrive\\Máy tính\\Assignment-PRN211-Team7\\Ass01_MemberManagement\\MyStoreWinApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
