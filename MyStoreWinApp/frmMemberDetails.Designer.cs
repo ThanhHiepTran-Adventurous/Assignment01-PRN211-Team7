@@ -28,177 +28,177 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.txtMemberID = new System.Windows.Forms.TextBox();
+            this.txtMemberName = new System.Windows.Forms.TextBox();
+            this.txtPassword = new System.Windows.Forms.TextBox();
+            this.txtRoleID = new System.Windows.Forms.TextBox();
+            this.txtCity = new System.Windows.Forms.TextBox();
+            this.txtCountry = new System.Windows.Forms.TextBox();
+            this.txtEmail = new System.Windows.Forms.TextBox();
+            this.lbMemberID = new System.Windows.Forms.Label();
+            this.lbMemberName = new System.Windows.Forms.Label();
+            this.lbPassword = new System.Windows.Forms.Label();
+            this.lbRoleID = new System.Windows.Forms.Label();
+            this.lbCity = new System.Windows.Forms.Label();
+            this.lbCountry = new System.Windows.Forms.Label();
+            this.lbEmail = new System.Windows.Forms.Label();
+            this.btnSave = new System.Windows.Forms.Button();
+            this.btnClose = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // textBox1
+            // txtMemberID
             // 
-            this.textBox1.Location = new System.Drawing.Point(176, 51);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(200, 27);
-            this.textBox1.TabIndex = 0;
+            this.txtMemberID.Location = new System.Drawing.Point(176, 51);
+            this.txtMemberID.Name = "txtMemberID";
+            this.txtMemberID.Size = new System.Drawing.Size(200, 27);
+            this.txtMemberID.TabIndex = 0;
             // 
-            // textBox2
+            // txtMemberName
             // 
-            this.textBox2.Location = new System.Drawing.Point(176, 113);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(200, 27);
-            this.textBox2.TabIndex = 1;
+            this.txtMemberName.Location = new System.Drawing.Point(176, 113);
+            this.txtMemberName.Name = "txtMemberName";
+            this.txtMemberName.Size = new System.Drawing.Size(200, 27);
+            this.txtMemberName.TabIndex = 1;
             // 
-            // textBox3
+            // txtPassword
             // 
-            this.textBox3.Location = new System.Drawing.Point(176, 183);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(200, 27);
-            this.textBox3.TabIndex = 2;
+            this.txtPassword.Location = new System.Drawing.Point(176, 179);
+            this.txtPassword.Name = "txtPassword";
+            this.txtPassword.Size = new System.Drawing.Size(200, 27);
+            this.txtPassword.TabIndex = 2;
             // 
-            // textBox4
+            // txtRoleID
             // 
-            this.textBox4.Location = new System.Drawing.Point(176, 270);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(200, 27);
-            this.textBox4.TabIndex = 3;
+            this.txtRoleID.Location = new System.Drawing.Point(176, 263);
+            this.txtRoleID.Name = "txtRoleID";
+            this.txtRoleID.Size = new System.Drawing.Size(200, 27);
+            this.txtRoleID.TabIndex = 3;
             // 
-            // textBox5
+            // txtCity
             // 
-            this.textBox5.Location = new System.Drawing.Point(547, 51);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(200, 27);
-            this.textBox5.TabIndex = 4;
+            this.txtCity.Location = new System.Drawing.Point(547, 51);
+            this.txtCity.Name = "txtCity";
+            this.txtCity.Size = new System.Drawing.Size(200, 27);
+            this.txtCity.TabIndex = 4;
             // 
-            // textBox6
+            // txtCountry
             // 
-            this.textBox6.Location = new System.Drawing.Point(547, 113);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(200, 27);
-            this.textBox6.TabIndex = 5;
+            this.txtCountry.Location = new System.Drawing.Point(547, 113);
+            this.txtCountry.Name = "txtCountry";
+            this.txtCountry.Size = new System.Drawing.Size(200, 27);
+            this.txtCountry.TabIndex = 5;
             // 
-            // textBox7
+            // txtEmail
             // 
-            this.textBox7.Location = new System.Drawing.Point(547, 183);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(200, 27);
-            this.textBox7.TabIndex = 6;
+            this.txtEmail.Location = new System.Drawing.Point(547, 183);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(200, 27);
+            this.txtEmail.TabIndex = 6;
             // 
-            // label1
+            // lbMemberID
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(75, 51);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(84, 20);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "Member ID";
+            this.lbMemberID.AutoSize = true;
+            this.lbMemberID.Location = new System.Drawing.Point(50, 51);
+            this.lbMemberID.Name = "lbMemberID";
+            this.lbMemberID.Size = new System.Drawing.Size(84, 20);
+            this.lbMemberID.TabIndex = 7;
+            this.lbMemberID.Text = "Member ID";
             // 
-            // label2
+            // lbMemberName
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(75, 120);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(109, 20);
-            this.label2.TabIndex = 8;
-            this.label2.Text = "Member Name";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
+            this.lbMemberName.AutoSize = true;
+            this.lbMemberName.Location = new System.Drawing.Point(50, 116);
+            this.lbMemberName.Name = "lbMemberName";
+            this.lbMemberName.Size = new System.Drawing.Size(109, 20);
+            this.lbMemberName.TabIndex = 8;
+            this.lbMemberName.Text = "Member Name";
             // 
-            // label3
+            // lbPassword
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(75, 203);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(70, 20);
-            this.label3.TabIndex = 9;
-            this.label3.Text = "Password";
+            this.lbPassword.AutoSize = true;
+            this.lbPassword.Location = new System.Drawing.Point(50, 186);
+            this.lbPassword.Name = "lbPassword";
+            this.lbPassword.Size = new System.Drawing.Size(70, 20);
+            this.lbPassword.TabIndex = 9;
+            this.lbPassword.Text = "Password";
             // 
-            // label4
+            // lbRoleID
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(75, 277);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(50, 20);
-            this.label4.TabIndex = 10;
-            this.label4.Text = "label4";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
+            this.lbRoleID.AutoSize = true;
+            this.lbRoleID.Location = new System.Drawing.Point(50, 270);
+            this.lbRoleID.Name = "lbRoleID";
+            this.lbRoleID.Size = new System.Drawing.Size(58, 20);
+            this.lbRoleID.TabIndex = 10;
+            this.lbRoleID.Text = "Role ID";
             // 
-            // label5
+            // lbCity
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(463, 58);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(50, 20);
-            this.label5.TabIndex = 11;
-            this.label5.Text = "label5";
+            this.lbCity.AutoSize = true;
+            this.lbCity.Location = new System.Drawing.Point(463, 54);
+            this.lbCity.Name = "lbCity";
+            this.lbCity.Size = new System.Drawing.Size(34, 20);
+            this.lbCity.TabIndex = 11;
+            this.lbCity.Text = "City";
             // 
-            // label6
+            // lbCountry
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(463, 120);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(50, 20);
-            this.label6.TabIndex = 12;
-            this.label6.Text = "label6";
+            this.lbCountry.AutoSize = true;
+            this.lbCountry.Location = new System.Drawing.Point(463, 116);
+            this.lbCountry.Name = "lbCountry";
+            this.lbCountry.Size = new System.Drawing.Size(60, 20);
+            this.lbCountry.TabIndex = 12;
+            this.lbCountry.Text = "Country";
             // 
-            // label7
+            // lbEmail
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(463, 186);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(50, 20);
-            this.label7.TabIndex = 13;
-            this.label7.Text = "label7";
+            this.lbEmail.AutoSize = true;
+            this.lbEmail.Location = new System.Drawing.Point(463, 183);
+            this.lbEmail.Name = "lbEmail";
+            this.lbEmail.Size = new System.Drawing.Size(46, 20);
+            this.lbEmail.TabIndex = 13;
+            this.lbEmail.Text = "Email";
             // 
-            // button1
+            // btnSave
             // 
-            this.button1.Location = new System.Drawing.Point(201, 363);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(94, 29);
-            this.button1.TabIndex = 14;
-            this.button1.Text = "Save";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnSave.Location = new System.Drawing.Point(201, 363);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(94, 29);
+            this.btnSave.TabIndex = 14;
+            this.btnSave.Text = "&Save";
+            this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
-            // button2
+            // btnClose
             // 
-            this.button2.Location = new System.Drawing.Point(489, 363);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(94, 29);
-            this.button2.TabIndex = 15;
-            this.button2.Text = "Close";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnClose.Location = new System.Drawing.Point(489, 363);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(94, 29);
+            this.btnClose.TabIndex = 15;
+            this.btnClose.Text = "Close";
+            this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // frmMemberDetails
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.btnClose);
+            this.Controls.Add(this.btnSave);
+            this.Controls.Add(this.lbEmail);
+            this.Controls.Add(this.lbCountry);
+            this.Controls.Add(this.lbCity);
+            this.Controls.Add(this.lbRoleID);
+            this.Controls.Add(this.lbPassword);
+            this.Controls.Add(this.lbMemberName);
+            this.Controls.Add(this.lbMemberID);
+            this.Controls.Add(this.txtEmail);
+            this.Controls.Add(this.txtCountry);
+            this.Controls.Add(this.txtCity);
+            this.Controls.Add(this.txtRoleID);
+            this.Controls.Add(this.txtPassword);
+            this.Controls.Add(this.txtMemberName);
+            this.Controls.Add(this.txtMemberID);
             this.Name = "frmMemberDetails";
             this.Text = "frmMemberDetails";
             this.ResumeLayout(false);
@@ -208,21 +208,21 @@
 
         #endregion
 
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private TextBox textBox3;
-        private TextBox textBox4;
-        private TextBox textBox5;
-        private TextBox textBox6;
-        private TextBox textBox7;
-        private Label label1;
-        private Label label2;
-        private Label label3;
-        private Label label4;
-        private Label label5;
-        private Label label6;
-        private Label label7;
-        private Button button1;
-        private Button button2;
+        private TextBox txtMemberID;
+        private TextBox txtMemberName;
+        private TextBox txtPassword;
+        private TextBox txtRoleID;
+        private TextBox txtCity;
+        private TextBox txtCountry;
+        private TextBox txtEmail;
+        private Label lbMemberID;
+        private Label lbMemberName;
+        private Label lbPassword;
+        private Label lbRoleID;
+        private Label lbCity;
+        private Label lbCountry;
+        private Label lbEmail;
+        private Button btnSave;
+        private Button btnClose;
     }
 }

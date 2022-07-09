@@ -1,6 +1,12 @@
-﻿namespace MyStoreWinApp
+﻿
+using BusinessObject;
+namespace MyStoreWinApp
+
 {
-    internal interface IMemberRepository
+     public interface IMemberRepository
     {
+        IEnumerable<MemberObject> GetMembers();
+
+
     }
 }

@@ -12,6 +12,9 @@ namespace MyStoreWinApp
 {
     public partial class frmMemberManagement : Form
     {
+
+
+        IMemberRepository memberRepository = new MemberRepository();
         public frmMemberManagement()
         {
             InitializeComponent();

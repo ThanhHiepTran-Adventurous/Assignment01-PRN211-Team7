@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using BusinessObject;
 namespace MyStoreWinApp
 {
     public partial class frmMemberDetails : Form
@@ -16,15 +16,49 @@ namespace MyStoreWinApp
         {
             InitializeComponent();
         }
+        public IMemberRepository MemberRepository { get; set; }
 
-        private void label2_Click(object sender, EventArgs e)
+        public bool InsertOrUpdate { get; set; }
+
+        public MemberObject MemberInfo { get; set; }
+
+
+        private void btnSave_Click(object sender, EventArgs e)
         {
+            try
+            {
+                var mem = new MemberObject
+                {
+                    MemberID = int.Parse(txtMemberID.Text),
+                    MemberName = txtMemberName.Text,
+                    Password = txtPassword.Text,
+                    RoleID = txtRoleID.Text,
+                    City = txtCity.Text,
+                    Country = txtCountry.Text,
+                    Email = txtEmail.Text
 
+                };
+                if (InsertOrUpdate == false)
+                {
+               //     MemberRepository.InsertMember(mem);
+                    MessageBox.Show("Add successfully!!");
+                    this.Close();
+                }
+                else
+                {
+           //         MemberRepository.UpdateMember(mem);
+                }
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, InsertOrUpdate == false ? "Add a new Members" : "Update a Member");
+            }
         }
 
-        private void label4_Click(object sender, EventArgs e)
+        private void btnClose_Click(object sender, EventArgs e)
         {
-
+            this.Close();
         }
     }
 }

@@ -1,12 +1,12 @@
-using Microsoft.Extensions.Configuration;
-
-using DataAccess.Repository;
+﻿using Microsoft.Extensions.Configuration;
+using BusinessObject;
+using DataAccess;
 namespace MyStoreWinApp
 {
     public partial class frmLogin : Form
     {   
 
-        IMemberRepository memberRepository = new IMemberRepository();
+        IMemberRepository memberRepository = new MemberRepository();
         public frmLogin()
         {
             InitializeComponent();
@@ -30,6 +30,55 @@ namespace MyStoreWinApp
             string EmailMemberTest = txtEmail.Text;
             string PasswordMemberTest = txtPassword.Text;
             bool checkLogin = false;
+
+            if (Email.Equals(_Email) && Password.Equals(_Password))
+            {
+
+                checkLogin = true;
+                if (checkLogin)
+                {
+                    MessageBox.Show("Login succes with admin");
+                }
+                frmMemberManagement frmMemberManagement = new frmMemberManagement();
+                frmMemberManagement.Show();//hiển thị form main
+                this.Hide();// ẩn form login
+            }
+            else
+            {
+                foreach (MemberObject member in mem)
+                {
+                    if (member.Email.ToString().ToLower() == EmailMemberTest.ToString().ToLower()
+                        && member.Password.ToString().ToLower().Equals(PasswordMemberTest.ToString().ToLower()))
+                    {
+                        frmMemberDetails frmMemberDetails = new frmMemberDetails
+                        {
+
+                            Text = "Update member " + "of " + member.MemberName,
+                            InsertOrUpdate = true,
+                            MemberInfo = member,
+                            MemberRepository = memberRepository,
+
+                        };
+                        checkLogin = true;
+                        if (checkLogin)
+                        {
+                            MessageBox.Show("Login success with member!");
+                        }
+                        frmMemberDetails.Show();
+                        this.Hide();
+                    }
+                }
+            }
+            if (checkLogin == false)
+            {
+                MessageBox.Show("Login Fails");
+            }
+
+        }
+
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

@@ -1,6 +1,17 @@
-﻿namespace MyStoreWinApp
+﻿
+using BusinessObject;
+using DataAccess;
+namespace MyStoreWinApp
 {
-    internal class MemberRepository : IMemberRepository
+    public partial class MemberRepository : IMemberRepository
     {
+
+
+        public IEnumerable<MemberObject> GetMembers() => MemberDAO.Instance.GetMemberList();
+
+
+
     }
+
+
 }
