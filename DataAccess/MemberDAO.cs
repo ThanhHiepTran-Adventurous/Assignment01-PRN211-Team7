@@ -183,5 +183,63 @@ namespace DataAccess
                 CloseConnection();
             }
         }//end function Delete members
+
+        //---------------------------------------------------------------------------------------------------------
+        public void Update(MemberObject member)
+        {
+            try
+            {
+                MemberObject mem = GetMemberByID(member.MemberID);
+                if (mem != null)
+                {
+                    string SQLUpdate = "Update Members set MemberName = @MemberName, Password = @Password, " +
+                        "RoleID = @RoleID, City = @City, Country = @Country, Email = @Email where MemberID = @MemberID";
+                    var paremeters = new List<SqlParameter>();
+                    paremeters.Add(memberDataProvider.CreateParameter("@MemberID", 4, member.MemberID, DbType.Int32));
+                    paremeters.Add(memberDataProvider.CreateParameter("@MemberName", 50, member.MemberName, DbType.String));
+                    paremeters.Add(memberDataProvider.CreateParameter("@Password", 50, member.Password, DbType.String));
+                    paremeters.Add(memberDataProvider.CreateParameter("@RoleID", 50, member.RoleID, DbType.String));
+                    paremeters.Add(memberDataProvider.CreateParameter("@City", 50, member.City, DbType.String));
+                    paremeters.Add(memberDataProvider.CreateParameter("@Country", 50, member.Country, DbType.String));
+                    paremeters.Add(memberDataProvider.CreateParameter("@Email", 50, member.Email, DbType.String));
+                    memberDataProvider.Insert(SQLUpdate, CommandType.Text, paremeters.ToArray());
+                    throw new Exception("The Member Update is succesfully");
+                }
+                else
+                {
+                    throw new Exception("The member dose not already exist");
+                }
+
+
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+            finally
+            {
+                CloseConnection();
+            }
+        } // End function Updates members
+        //--------------------------------------------------------------------------------------------------
+
+        public IEnumerable<MemberObject> FilterMemberByCountry(string country)
+        {
+            var list = (List<MemberObject>)this.GetMemberList();
+
+            var newList = list.FindAll(member => member.Country.ToLower().Equals(country.ToLower()));
+            return newList;
+        }
+
+
+        //----------------------------------------------------------
+        public IEnumerable<MemberObject> FilterMemberByCity(string city)
+        {
+            var list = (List<MemberObject>)this.GetMemberList();
+
+            var newListByCity = list.FindAll(member => member.City.ToLower().Equals(city.ToLower()));
+            return newListByCity;
+        }
+
     }
 }

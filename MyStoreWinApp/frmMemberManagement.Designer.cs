@@ -53,8 +53,8 @@
             this.lbFindMemberById = new System.Windows.Forms.Label();
             this.lbFindMemberName = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cbxCity = new System.Windows.Forms.ComboBox();
+            this.cbxCountry = new System.Windows.Forms.ComboBox();
             this.lbFilterCity = new System.Windows.Forms.Label();
             this.lbFilterCountry = new System.Windows.Forms.Label();
             this.dgvMemberList = new System.Windows.Forms.DataGridView();
@@ -293,8 +293,8 @@
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.comboBox2);
-            this.groupBox3.Controls.Add(this.comboBox1);
+            this.groupBox3.Controls.Add(this.cbxCity);
+            this.groupBox3.Controls.Add(this.cbxCountry);
             this.groupBox3.Controls.Add(this.lbFilterCity);
             this.groupBox3.Controls.Add(this.lbFilterCountry);
             this.groupBox3.Location = new System.Drawing.Point(656, 385);
@@ -304,21 +304,21 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Filter By City And Country";
             // 
-            // comboBox2
+            // cbxCity
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(194, 84);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(152, 28);
-            this.comboBox2.TabIndex = 5;
+            this.cbxCity.FormattingEnabled = true;
+            this.cbxCity.Location = new System.Drawing.Point(194, 84);
+            this.cbxCity.Name = "cbxCity";
+            this.cbxCity.Size = new System.Drawing.Size(152, 28);
+            this.cbxCity.TabIndex = 5;
             // 
-            // comboBox1
+            // cbxCountry
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(13, 84);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(154, 28);
-            this.comboBox1.TabIndex = 4;
+            this.cbxCountry.FormattingEnabled = true;
+            this.cbxCountry.Location = new System.Drawing.Point(13, 84);
+            this.cbxCountry.Name = "cbxCountry";
+            this.cbxCountry.Size = new System.Drawing.Size(154, 28);
+            this.cbxCountry.TabIndex = 4;
             // 
             // lbFilterCity
             // 
@@ -401,8 +401,8 @@
         private Button btnSortNameDesc;
         private Label lbFilterCity;
         private Label lbFilterCountry;
-        private ComboBox comboBox2;
-        private ComboBox comboBox1;
+        private ComboBox cbxCity;
+        private ComboBox cbxCountry;
         private DataGridView dgvMemberList;
     }
 }

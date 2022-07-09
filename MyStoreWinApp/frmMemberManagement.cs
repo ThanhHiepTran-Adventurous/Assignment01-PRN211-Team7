@@ -174,5 +174,25 @@ namespace MyStoreWinApp
                 MessageBox.Show(ex.Message, "Delete a member");
             }
         }
+
+        private void cbxCountry_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            var cmbCountry = cbxCountry.SelectedItem;
+            Console.WriteLine(cmbCountry);
+            var listMembersFilteredByCountry = memberRepository.FilterMemberByCountry(cmbCountry.ToString());
+            Console.WriteLine(cmbCountry.ToString());
+            dgvMemberList.DataSource = null;
+            dgvMemberList.DataSource = listMembersFilteredByCountry;
+        }
+
+        private void cbxCity_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            var cmbCity = cbxCity.SelectedItem;
+            Console.WriteLine(cmbCity);
+            var listMembersFilteredByCity = memberRepository.FilterMemberByCity(cmbCity.ToString());
+            Console.WriteLine(cmbCity.ToString());
+            dgvMemberList.DataSource = null;
+            dgvMemberList.DataSource = listMembersFilteredByCity;
+        }
     }
 }

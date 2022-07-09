@@ -23,6 +23,27 @@ namespace MyStoreWinApp
         public MemberObject MemberInfo { get; set; }
 
 
+        private void frmMemberDetails_Load(object sender, EventArgs e)
+        {
+
+
+            txtMemberID.Enabled = !InsertOrUpdate;
+            //txtMemberID.Enabled = InsertOrUpdate;
+            if (InsertOrUpdate == true)
+            {
+
+                //show Member to perform Updating
+                txtMemberID.Text = MemberInfo.MemberID.ToString();
+                txtMemberName.Text = MemberInfo.MemberName;
+                txtPassword.Text = MemberInfo.Password;
+                txtRoleID.Text = MemberInfo.RoleID;
+                txtCity.Text = MemberInfo.City;
+                txtCountry.Text = MemberInfo.Country;
+                txtEmail.Text = MemberInfo.Email;
+
+            }
+        }//end frmMemberDetails_Load
+
         private void btnSave_Click(object sender, EventArgs e)
         {
             try
@@ -46,7 +67,7 @@ namespace MyStoreWinApp
                 }
                 else
                 {
-           //         MemberRepository.UpdateMember(mem);
+                    MemberRepository.UpdateMember(mem);
                 }
 
             }

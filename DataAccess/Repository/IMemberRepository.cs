@@ -7,6 +7,19 @@ namespace MyStoreWinApp
     {
         IEnumerable<MemberObject> GetMembers();
 
-        void DeleteMember(int memberID);
+        MemberObject GetMemberID(int memberId);
+
+        void InsertMember(MemberObject member);
+
+        void DeleteMember(int memberId);
+
+        void UpdateMember(MemberObject member);
+
+        IEnumerable<MemberObject> SortNameDesc();
+
+        IEnumerable<MemberObject> FilterMemberByCountry(string country);
+
+        IEnumerable<MemberObject> FilterMemberByCity(string city);
+
     }
 }

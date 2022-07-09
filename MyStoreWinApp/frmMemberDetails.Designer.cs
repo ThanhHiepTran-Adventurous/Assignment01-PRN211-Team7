@@ -201,6 +201,7 @@
             this.Controls.Add(this.txtMemberID);
             this.Name = "frmMemberDetails";
             this.Text = "frmMemberDetails";
+            this.Load += new System.EventHandler(this.frmMemberDetails_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
